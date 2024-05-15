@@ -21,4 +21,4 @@ The result format is in the following example. */
 
 SELECT DISTINCT author_id as id 
 FROM Views WHERE author_id = viewer_id 
-ORDERBY id ASC; 
+ORDER BY id ASC; 
